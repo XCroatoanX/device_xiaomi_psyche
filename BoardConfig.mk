@@ -15,7 +15,7 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/psyche_defconfig
+TARGET_KERNEL_CONFIG += vendor/xiaomi/psyche.config
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := psyche
