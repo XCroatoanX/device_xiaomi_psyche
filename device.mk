@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Camera
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
@@ -33,7 +36,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 # Permissions
 PRODUCT_COPY_FILES += \
